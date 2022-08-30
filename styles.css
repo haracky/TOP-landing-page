@@ -1,0 +1,183 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header, .content, .random, .signup,  .knowledge {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.header, .content, .footer {
+    background-color: #1f2937;
+}
+
+.header, .content {
+    color: white;
+}
+
+.header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.header-links ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;  
+    
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.subtitle {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.content img {
+    height: 200px;
+    width: 300px;
+}
+
+button {
+    background-color: #3882f6;
+    border-style: none;
+    border-radius: 5px;
+    color: #f9faf8;
+    padding: 5px 20px;
+}
+
+
+.random {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.random-header {
+    font-size: 36px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+.description {
+    
+    text-align: center;
+}
+
+.random  img {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    border-color: #3882f6;
+    border-style:solid;
+    
+}
+
+
+.knowledge {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+.knowledge > .author {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.signup {
+    background-color: #3882f6;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.action {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.signup button {
+    border-style: solid;
+    border-color: #e5e7eb;
+    border-radius: 10px;
+    font-weight: 800;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer {
+    margin-top: auto;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
